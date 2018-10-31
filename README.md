@@ -21,9 +21,10 @@ Wikipedia: https://en.wikipedia.org/wiki/Octahedron
 * Only if the state of the switch (the orientation of the octahedron) has
 actually changed, a new LoRa message is sent to The Things Network.
 * The state has to remain stable for at least 10 seconds to be considered as a valid state.
-* The gravitation vector (x y z) is used to split up the 3D space into 8 octants. 
-Depending in which of these 8 octants the gravitation vector points, decides about
-the state of the switch (Wikipedia: https://en.wikipedia.org/wiki/Octant_(solid_geometry))
+* The 3D space can be split up into 8 octants. 
+You can find out the current state of the switch by evaluating in which of these 8 octants the gravitation vector 
+currently is located.
+Wikipedia: https://en.wikipedia.org/wiki/Octant_(solid_geometry)
 
 ![Picture 1](media/octahedron_1.png "Picture 1")
 ![Picture 2](media/octahedron_2.png "Picture 2")
